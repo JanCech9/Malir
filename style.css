@@ -1,0 +1,68 @@
+html{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    color: #000;
+    background-color: #FFE037;/*https://colorhunt.co/palette/ffe0371dcd9f088c6f23033c/?ref=tab*/
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    height: 15vh;
+}
+body{
+
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-weight: 700;
+}
+h2{
+    font-weight: 200;
+}
+nav{
+
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    left: 100px;
+
+}
+ol{
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+  }
+
+.intro {
+    margin: 10%;
+    font-size: 7vh;
+    font-weight: 100;
+    color: #FFE037;
+}
+
+footer{
+    background-color: #FFE037;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
