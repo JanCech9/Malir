@@ -8,7 +8,7 @@ a{
 }
 header{
     color: #000;
-    background-color: #FFE037;/*https://colorhunt.co/palette/ffe0371dcd9f088c6f23033c/?ref=tab*/
+    background-color: #F9CA05;/*https://colorhunt.co/palette/ffe0371dcd9f088c6f23033c/?ref=tab*/
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
@@ -24,7 +24,8 @@ body{
     flex-direction: column;
 }
 h1{
-    font-weight: 700;
+    font-size: 5vh;
+    font-weight: 500;
 }
 h2{
     font-weight: 200;
@@ -53,15 +54,16 @@ nav li {
     margin-left: 10%;
     font-size: 7vh;
     font-weight: 100;
-    color: #FFE037;
-    display: flex;
+    color: #F9CA05;/*#FFE037;*/
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .intro img{
     align-self: right;
 }
 footer{
-    background-color: #FFE037;
+    background-color: #F9CA05;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
