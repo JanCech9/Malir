@@ -50,12 +50,16 @@ nav li {
   }
 
 .intro {
-    margin: 10%;
+    margin-left: 10%;
     font-size: 7vh;
     font-weight: 100;
     color: #FFE037;
+    display: flex;
 }
 
+.intro img{
+    align-self: right;
+}
 footer{
     background-color: #FFE037;
     text-align: center;
@@ -65,4 +69,5 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 5px;
 }
