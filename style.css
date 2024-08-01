@@ -50,7 +50,7 @@ nav li {
     font-size: large;
   }
 
-.intro {
+.middle {
     margin-left: 10%;
     font-size: 7vh;
     font-weight: 100;
@@ -59,7 +59,7 @@ nav li {
     grid-template-columns: 50% 50%;
 }
 
-.intro img{
+.middle img{
     align-self: right;
 }
 footer{
