@@ -31,14 +31,13 @@ h2{
     font-weight: 200;
 }
 nav{
-
+    background-color: #F9CA05;
     display: flex;
     text-decoration: none;
     position: relative;
     align-items: center;
-    padding: 5px;
     width: 100%;
-    left: 100px;
+    padding-left: 100px;
 
 }
 ol{
@@ -52,15 +51,23 @@ nav li {
 
 .middle {
     margin-left: 10%;
-    font-size: 7vh;
+    font-size: 6vh;
     font-weight: 100;
     color: #F9CA05;/*#FFE037;*/
     display: grid;
     grid-template-columns: 50% 50%;
+    
+}
+.middle p{
+    justify-self: center;
+    align-self: center;
+
 }
 
 .middle img{
-    align-self: right;
+    justify-self: top;
+    align-self: center;
+    height: 100%;
 }
 footer{
     background-color: #F9CA05;
