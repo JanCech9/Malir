@@ -8,7 +8,7 @@ a{
 }
 header{
     color: #000;
-    background-color: #F9CA05;/*https://colorhunt.co/palette/ffe0371dcd9f088c6f23033c/?ref=tab*/
+    background-color: #F1C84E ;/*https://colorhunt.co/palette/ffe0371dcd9f088c6f23033c/?ref=tab*/
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
@@ -19,8 +19,10 @@ body{
 
     font-family: "Oswald", sans-serif;
     margin: 0;
-    height: 100vh;
+    padding: 0;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     flex-direction: column;
 }
 h1{
@@ -31,12 +33,11 @@ h2{
     font-weight: 200;
 }
 nav{
-    background-color: #F9CA05;
+    background-color: #F1C84E ;
     display: flex;
     text-decoration: none;
     position: relative;
     align-items: center;
-    width: 100%;
     padding-left: 100px;
 
 }
@@ -56,7 +57,6 @@ nav li {
     color: #F9CA05;/*#FFE037;*/
     display: grid;
     grid-template-columns: 50% 50%;
-    
 }
 .middle p{
     justify-self: center;
@@ -67,16 +67,15 @@ nav li {
 .middle img{
     justify-self: top;
     align-self: center;
-    height: 100%;
+    height: 55vh;
 }
 footer{
-    background-color: #F9CA05;
+    background-color: #F1C84E ;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    display: block;
-    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 5px;
+    position: absolute;
+    height: 1rem;
 }
