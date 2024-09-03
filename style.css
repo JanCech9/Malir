@@ -7,8 +7,8 @@ a{
     color: inherit;
 }
 header{
-    color: #000;
-    background-color: #F1C84E ;/*https://colorhunt.co/palette/ffe0371dcd9f088c6f23033c/?ref=tab*/
+    color: white;
+    background-color: #281E5D;
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
@@ -16,14 +16,11 @@ header{
     height: 15vh;
 }
 body{
-
     font-family: "Oswald", sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+
     min-height: 100vh;
-    flex-direction: column;
 }
 h1{
     font-size: 5vh;
@@ -32,8 +29,10 @@ h1{
 h2{
     font-weight: 200;
 }
+
 nav{
-    background-color: #F1C84E ;
+    color: white;
+    background-color: #281E5D ;
     display: flex;
     text-decoration: none;
     position: relative;
@@ -54,7 +53,7 @@ nav li {
     margin-left: 10%;
     font-size: 6vh;
     font-weight: 100;
-    color: #F9CA05;/*#FFE037;*/
+    color: #DC143C;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -70,7 +69,8 @@ nav li {
     height: 55vh;
 }
 footer{
-    background-color: #F1C84E ;
+    color: white;
+    background-color: #281E5D ;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -79,3 +79,4 @@ footer{
     position: absolute;
     height: 1rem;
 }
+

@@ -1,11 +1,32 @@
 
+@media (max-width: 1300px) {
+
+    h1{
+        font-size: 5vh;
+    }
+    .middle{
+        font-size: 4vh;
+        margin-left: 0%;
+
+    }
+}
+
+
 @media (max-width: 500px) {
 
     h1{
         font-size: 4vh;
     }
     .middle{
-        font-size: 3vh;
+        font-size: 4vh;
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+        text-align: centers;
+    }
+    .middle img{
+        display: none;
+
     }
 }
 
