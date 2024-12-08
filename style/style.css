@@ -6,9 +6,13 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+ul{
+    list-style: none;
+}
 header{
     color: white;
-    background-color: #281E5D;
+    background-color: #808080;
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
@@ -19,9 +23,11 @@ body{
     font-family: "Oswald", sans-serif;
     margin: 0;
     padding: 0;
-
+    color:black;
     min-height: 100vh;
 }
+
+
 h1{
     font-size: 5vh;
     font-weight: 500;
@@ -30,53 +36,26 @@ h2{
     font-weight: 200;
 }
 
-nav{
-    color: white;
-    background-color: #281E5D ;
-    display: flex;
-    text-decoration: none;
-    position: relative;
-    align-items: center;
-    padding-left: 100px;
-
-}
-ol{
-    list-style: none;
-}
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: large;
-  }
 
 .middle {
     margin-left: 10%;
-    font-size: 6vh;
+    font-size:4vh;
     font-weight: 100;
-    color: #DC143C;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.middle p{
+    color: black;
     justify-self: center;
     align-self: center;
 
 }
 
-.middle img{
-    justify-self: top;
-    align-self: center;
-    height: 55vh;
-}
+
 footer{
     color: white;
-    background-color: #281E5D ;
+    background-color: #808080 ;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
     bottom: 0;
     width: 100%;
-    position: absolute;
     height: 1rem;
 }
 
