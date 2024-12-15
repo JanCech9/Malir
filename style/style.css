@@ -1,3 +1,5 @@
+/*#region General*/
+
 html{
     margin: 0;
 }
@@ -60,8 +62,9 @@ footer{
     width: 100%;
     height: 1rem;
 }
+/*#endregion*/
 
-/*Galery*/
+/*#region Techniques*/
 
 /* General Technique Styling */
 .technique {
@@ -122,3 +125,4 @@ footer{
         width: calc(100% - 10px);
     }
 }
+/*#endregion*/
