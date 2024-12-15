@@ -2,40 +2,37 @@ html{
     margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-ul{
-    list-style: none;
-}
 header{
     color: white;
     background-color: #808080;
     margin: 0;
+    display: flex;
     padding-left: 10%;
     padding-right: 10%;
-    display: flex;
     height: 15vh;
 }
 body{
     font-family: "Oswald", sans-serif;
     margin: 0;
-    padding: 0;
-    color:black;
-    min-height: 100vh;
 }
-
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 h1{
     font-size: 5vh;
     font-weight: 500;
 }
 h2{
+    text-align: center;
     font-weight: 200;
 }
-
+ul{
+    list-style: none;
+}
+hr{
+    margin: 5%;
+}
 
 .middle {
     margin-left: 10%;
@@ -47,6 +44,11 @@ h2{
 
 }
 
+.contact{
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+}
 
 footer{
     color: white;
@@ -59,3 +61,64 @@ footer{
     height: 1rem;
 }
 
+/*Galery*/
+
+/* General Technique Styling */
+.technique {
+    display: flex;
+    flex-wrap: wrap; /* Wraps content for responsiveness */
+    align-items: center;
+    padding: 50px;
+    height: auto;
+}
+
+.technique:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate background for techniques */
+}
+
+.technique:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Text Content Styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Image Section Styling */
+.images {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.images img {
+    width: calc(50% - 10px); /* Half width with gap */
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    /* Stack content for smaller screens */
+    .technique {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .images img {
+        width: calc(100% - 10px);
+    }
+}
