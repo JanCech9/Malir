@@ -5,13 +5,15 @@ html{
 }
 
 header{
-    color: white;
+    color: black;
     background-color: #808080;
     margin: 0;
     display: flex;
+    justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
-    height: 15vh;
+    padding-top: 4%;
+    height: 20vh;
 }
 body{
     font-family: "Oswald", sans-serif;
@@ -36,17 +38,19 @@ ul{
     list-style: none;
 }
 hr{
-    margin: 5%;
+    margin: 10% 5%;
 }
 
 .middle {
-    margin-left: 10%;
     font-size:4vh;
     font-weight: 100;
     color: black;
     justify-self: center;
     align-self: center;
 
+}
+.intro {
+    margin: 20% 0%;
 }
 
 .contact{
@@ -117,6 +121,12 @@ footer{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+#igref{
+    margin-top: 10vh;
+    font-size: 2rem;
+    text-align: center;
+
+}
 @media (max-width: 768px) {
     /* Stack content for smaller screens */
     .technique {
