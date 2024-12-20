@@ -50,6 +50,8 @@ hr{
 
 }
 .intro {
+    display: flex;
+    justify-content: center;
     margin: 20% 0%;
 }
 
@@ -128,6 +130,13 @@ footer{
 
 }
 @media (max-width: 768px) {
+    header{
+        padding: 10% 0% 0% 0%;
+    }
+    .intro {
+        margin: 20% 10%;
+        font-size: 3vh;
+    }
     /* Stack content for smaller screens */
     .technique {
         flex-direction: column;
