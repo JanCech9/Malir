@@ -5,15 +5,16 @@ html{
 }
 
 header{
-    color: black;
-    background-color: #808080;
+    color: white;
+    background-color: #ECECEC;
+    background-image: url("../img/Paint-Cans2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     display: flex;
     justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4%;
-    height: 20vh;
+    align-items: center;
+    height: 40vh;
 }
 body{
     font-family: "Oswald", sans-serif;
@@ -24,8 +25,11 @@ a{
     color: inherit;
 }
 h1{
-    font-size: 5vh;
+    font-size: 7vh;
     font-weight: 500;
+}
+header h2{
+    font-size: 3vh;
 }
 h2{
     text-align: center;
@@ -33,6 +37,24 @@ h2{
 }
 h3{
     font-weight: 200;
+}
+nav{
+    color: black;
+    background-color: #ECECEC ;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+}
+ol{
+    list-style: none;
 }
 ul{
     list-style: none;
@@ -62,8 +84,8 @@ hr{
 }
 
 footer{
-    color: white;
-    background-color: #808080 ;
+    color: black;
+    background-color: #ECECEC ;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -148,3 +170,20 @@ footer{
     }
 }
 /*#endregion*/
+
+.gallery{
+    display: grid;
+    margin: 0 auto;
+    width: min-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.gallery img{
+    width: 200px;
+    cursor: pointer;
+}
+.gallery img:hover{
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.3);
+}
