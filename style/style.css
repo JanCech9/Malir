@@ -7,7 +7,7 @@ html{
 header{
     color: white;
     background-color: #ECECEC;
-    background-image: url("../img/Paint-Cans2.jpg");
+    background-image: url("../img/Paint-Cans.jpg");
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
@@ -80,12 +80,26 @@ hr{
 .contact{
     display: block;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 25%;
+}
+.contact ul li{
+    line-height: 30px;
+    padding-left: 20px;
+}
+.contact ul{
+    margin: 20px;
+}
+
+#mail{
+    list-style-image: url("../img/mail.png");
+}
+#tel{
+    list-style-image: url("../img/telephone.png");
 }
 
 footer{
     color: black;
-    background-color: #ECECEC ;
+    background-color: #ECECEC;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
