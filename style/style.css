@@ -73,6 +73,7 @@ hr{
 }
 .intro {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 20% 0%;
 }
