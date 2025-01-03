@@ -64,32 +64,42 @@ hr{
 }
 
 .middle {
-    font-size:4vh;
+    font-size: 4vh;
     font-weight: 100;
     color: black;
     justify-self: center;
     align-self: center;
-
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 20% 0%;
+    align-items: center; /* Added */
+    margin: 20% 0;
+    padding: 1px; /* Prevent margin collapsing */
 }
 
-.contact{
+.contact {
     display: block;
     text-align: center;
     margin-bottom: 25%;
 }
-.contact ul li{
-    line-height: 30px;
+
+.contact ul {
+    list-style: none; /* Added */
+    margin: 20px;
+    padding: 0; /* Added */
+    text-align: center; /* Ensure alignment */
+}
+
+.contact ul li {
+    line-height: 1.5; /* Changed to relative */
     padding-left: 20px;
 }
-.contact ul{
-    margin: 20px;
-}
+
 
 #mail{
     list-style-image: url("../img/mail.png");
@@ -166,6 +176,24 @@ footer{
     text-align: center;
 
 }
+
+.gallery{
+    display: grid;
+    margin: 0 auto;
+    width: min-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.gallery img{
+    width: 200px;
+    cursor: pointer;
+}
+.gallery img:hover{
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.3);
+}
+
 @media (max-width: 768px) {
     header{
         padding: 10% 0% 0% 0%;
@@ -185,20 +213,3 @@ footer{
     }
 }
 /*#endregion*/
-
-.gallery{
-    display: grid;
-    margin: 0 auto;
-    width: min-content;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
-}
-.gallery img{
-    width: 200px;
-    cursor: pointer;
-}
-.gallery img:hover{
-    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.3);
-}
